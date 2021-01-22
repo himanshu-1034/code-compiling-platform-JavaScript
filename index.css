@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+*{
+    font-family: 'Playfair Display', serif;
+}
+body{
+    background-color: gray;
+}
+#heading{
+    float: left;
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+#codingLanguage{
+    font-size: 25px;
+    position: absolute;
+    top: 7%;
+    right: 9%;
+    float: right;
+}
+
+#consoleOutput{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    height: 190px;
+    width: 1270px;
+    padding: 10px;
+
+}
+
+#codeArea{
+    position: absolute;
+    top: 17%;
+    left: 10%;
+}
+#compileCodeButton{
+    background-color: yellow;
+    border: yellow;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    position: absolute;
+    top: 7%;
+    right: 20%;
+}
